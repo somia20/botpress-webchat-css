@@ -1,0 +1,46 @@
+.bpMessageBlocksBubble:has(p a) {
+    display: none;
+
+}
+
+.bpContainer {
+    width: 60%;
+    height: 50%;
+}
+
+
+.bpHeaderContainer {
+    width: 95%;
+    height: 50px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 2%;
+        }
+
+
+
+.bpComposerContainer {
+    border-radius: 5px;
+
+}
+
+
+.bpMessageContainer[data-direction=outgoing] .bpMessageBlocksBubble {
+    background-color: #6775fa;
+    border-radius: 10px;
+}
+
+.bpMessageContainer[data-direction=incoming] .bpMessageBlocksBubble {
+    background-color: #f6f5f5;
+    border-radius: 10px;
+    -webkit-text-fill-color: black;
+
+}
+
+.bpMessageContainer[data-direction=incoming] .bpMessageBlocksTextText {
+    color: white;
+}
+
+.bpComposerVoiceButtonIcon {
+    display: none;
+}
